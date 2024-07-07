@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 const fetchStatusData = async () => {
-  const response = await fetch("https://api.tfl.gov.uk/Line/Mode/tube,overground,dlr,tram,river-bus,coach,cycle,walking,interchange,elizabeth-line,tramlink,overground,dlr,tram,river-bus,coach,cycle,walking,interchange,elizabeth-line/Status", {
+  const response = await fetch("https://api.tfl.gov.uk/Line/Mode/tube,overground,dlr,tram,river-bus,coach,cycle,walking,interchange,elizabeth-line/Status", {
     headers: {
       "Cache-Control": "no-cache",
       "Content-Type": "application/json",
